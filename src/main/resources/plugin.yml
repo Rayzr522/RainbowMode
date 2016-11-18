@@ -1,0 +1,10 @@
+main: com.rayzr522.rainbowmode.RainbowMode
+name: RainbowMode
+version: 1.0.0
+description: Enables rainbow mode in chat
+author: [Rayzr]
+commands:
+  rainbowmode:
+    description: Enables rainbow mode!
+    usage: "/rainbowmode"
+    permission: RainbowMode.toggle
