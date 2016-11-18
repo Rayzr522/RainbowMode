@@ -4,4 +4,4 @@ This project is a simple Bukkit plugin that I did as a challenge with [@ipodtouc
 
 - **Command:** `/rainbowmode`
 - **Permission:** `RainbowMode.toggle`
-- **JAR size:** 3,896 bytes
+- **JAR size:** 3,895 bytes
