@@ -19,7 +19,7 @@ public class R extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
     }
     private String m(String i) {
-        return Arrays.stream(i.split("")).map(c -> colors[offset = ++offset % colors.length] + c).collect(Collectors.joining());
+        return Arrays.stream(i.split("")).map(c -> "\u00a7" + colors[offset = ++offset % colors.length] + c).collect(Collectors.joining());
     }
     @EventHandler void m(PlayerCommandPreprocessEvent e) {
         if (e.getMessage().contains("rainbowmode") && !p.remove(e.getPlayer())) p.add(e.getPlayer());
